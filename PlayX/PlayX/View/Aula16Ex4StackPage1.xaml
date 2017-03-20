@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula16Ex4StackPage1"
+             Title="Aula16 Ex4"
+             BackgroundColor="Purple">
+
+    <StackLayout 
+        Orientation="Vertical"
+        Spacing="10"
+        >
+
+        <Label 
+           Text="Cadastro de Clientes"
+           TextColor="White"
+           FontSize="30"
+           FontAttributes="Bold"
+           HorizontalOptions="Center"/>
+
+        <Label 
+           Text="Exercício de Xamarin.Forms"
+           TextColor="White"
+           FontSize="18"
+           HorizontalOptions="Center"/>
+
+        <StackLayout
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand">
+
+            <Button 
+                Text="Login" 
+                TextColor="Black"
+                BackgroundColor="#1dabf0"/>
+
+            <Button 
+                Text="Registro" 
+                TextColor="Black"
+                BackgroundColor="#1dabf0"/>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

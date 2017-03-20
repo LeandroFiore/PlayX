@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula14StackLayoutPage1">
+
+    <StackLayout
+                 BackgroundColor="Yellow"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 Spacing="20"
+                 Padding="20"
+                 Orientation="Horizontal"
+                 >
+
+        <StackLayout 
+            BackgroundColor="Aqua"
+                     >
+            <Image Source="http://www.macoratti.net/imagens/animais/cao1.jpg"
+                   WidthRequest="30"
+                   HeightRequest="30"
+                   Aspect="AspectFit"
+                   />
+            <Label Text="Xamarin Forms 1" BackgroundColor="Silver"/>
+        </StackLayout>
+
+        <Label Text="Xamarin Forms 2" BackgroundColor="Silver"/>
+        <Label Text="Xamarin Forms 3" BackgroundColor="Silver"/>
+
+    </StackLayout>
+    
+</ContentPage>

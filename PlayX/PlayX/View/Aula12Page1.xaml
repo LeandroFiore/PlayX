@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula12Page1"             
+             >
+    <!--Padding="0,20,0,0"-->
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="0,20,0,0"
+                    Android="0,0,0,0"
+                    WinPhone="0,0,0,0">
+
+        </OnPlatform>
+    </ContentPage.Padding>
+    <StackLayout>
+        <BoxView Color="Red"/>
+        <Button Text="Botão XAML"/>
+        <!--Keyboard= Text, Numeric, Email, Url, Telephone-->
+        <Entry Placeholder="texto..." Keyboard="Text"/>
+        <Label x:Name="lblIdiom" Text="Dispositivo: "/>
+    </StackLayout>
+</ContentPage>

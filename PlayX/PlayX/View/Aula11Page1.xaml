@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula11Page1"
+    Title="Aula 11 Macoratti.net"
+             BackgroundColor="White">
+
+    <StackLayout Orientation="Vertical"
+                 BindingContext="{x:Reference slider}">
+
+        <Label Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='Valor = {0:F2}'}"               
+               Opacity="{Binding Source={x:Reference slider}, Path=Value}"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               FontSize="Large"
+               FontAttributes="Bold"
+               x:Name="label"
+               />
+
+        <!--Subiu Binding Source para BindingContext-->
+        <Label BindingContext="{x:Reference slider}"
+            Text="{Binding Value, StringFormat='Valor = {0:F2}'}"
+               
+               Opacity="{Binding Value}"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               FontSize="Large"
+               FontAttributes="Bold"
+               x:Name="label2"
+               />
+
+        <!--Subiu BindingContext para o StackLayout-->
+        <Label
+            Text="{Binding Value, StringFormat='Valor = {0:F2}'}"               
+               Opacity="{Binding Value}"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               FontSize="Large"
+               FontAttributes="Bold"
+               x:Name="label3"
+               />
+        
+        
+        
+        
+        <BoxView Color="Red" 
+                 Opacity="{Binding Source={x:Reference slider}, Path=Value}"/>
+
+        <!--Subiu Binding Source para o StackLayout-->
+        <BoxView Color="Green"
+                 Opacity="{Binding Value}"/>
+
+        <Slider x:Name="slider"
+                />
+
+    </StackLayout>
+</ContentPage>

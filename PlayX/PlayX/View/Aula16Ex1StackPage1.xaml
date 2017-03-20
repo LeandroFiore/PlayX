@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula16Ex1StackPage1"
+             Title="Aula16 Ex1">
+
+    <ContentPage.Padding>
+        <OnPlatform 
+            x:TypeArguments="Thickness"
+            iOS="0,20,0,0"
+            >
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <StackLayout>
+        <StackLayout Padding="10">
+            <Label Text="Torta de Maça"/>
+        </StackLayout>
+        <Image Source="http://macoratti.net/imagens/receitas/tortamaca.jpg"
+               WidthRequest="250"
+               HeightRequest="250"
+                />
+
+        <StackLayout Orientation="Horizontal"
+                     Spacing="20"
+                     Padding="10,0">
+                    
+            <Button Text="Like"/>
+            <Button Text="Comentar"/>
+            <Button Text="Compartilhar"/>
+        </StackLayout>
+
+        <StackLayout Padding="10">
+            <BoxView Color="#f0f0f0"
+                     HeightRequest="2"/>
+
+            <Label Text="250 likes"
+                   FontAttributes="Bold"/>
+
+            <Label Text="Descasque as maças , retire as sementes e corte-as em fatias não muito finas. Passe as fatias no açucar cristal misturado com a canela em pó. Reserve. Unte uma forma refratária com manteiga e forre o fundo com uma camada de fatias de maça."
+                   TextColor="#444"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
