@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula17GridPage1">
+
+    <!--Grid com 2 linhas e 2 colunas ou seja 4 células-->
+    <!--<Grid BackgroundColor="Yellow" RowSpacing="30" ColumnSpacing="20">
+        <Label Grid.Row="0" Grid.Column="0" Text="Label 1" BackgroundColor="Aqua"/>
+        <Label Grid.Row="0" Grid.Column="1" Text="Label 2" BackgroundColor="Aqua"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Label 3" BackgroundColor="Aqua"/>
+        <Label Grid.Row="1" Grid.Column="1" Text="Label 4" BackgroundColor="Aqua"/>
+        <Label Grid.Row="2" Grid.ColumnSpan="3" Text="ColumnSpan" BackgroundColor="Aqua"/>
+        <Label Grid.Column="2" Grid.RowSpan="3" Text="RowSpan" BackgroundColor="Aqua"/>
+    </Grid>-->
+
+    <Grid BackgroundColor="Yellow">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="0" Grid.Column="0" Text="Label 1" BackgroundColor="Aqua"/>
+        <Label Grid.Row="0" Grid.Column="1" Text="Label 2" BackgroundColor="Aqua"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Label 3" BackgroundColor="Aqua"/>
+        <Label Grid.Row="1" Grid.Column="1" Text="Label 4" BackgroundColor="Aqua"/>
+        <Label Grid.Row="2" Grid.ColumnSpan="3" Text="ColumnSpan" BackgroundColor="Aqua"/>
+        <Label Grid.Column="2" Grid.RowSpan="3" Text="RowSpan" BackgroundColor="Aqua"/>
+    </Grid>
+    
+    
+</ContentPage>

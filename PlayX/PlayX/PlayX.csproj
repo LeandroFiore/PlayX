@@ -81,8 +81,17 @@
     <Compile Include="View\Aula16Ex4StackPage1.xaml.cs">
       <DependentUpon>Aula16Ex4StackPage1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Aula17Page1.xaml.cs">
-      <DependentUpon>Aula17Page1.xaml</DependentUpon>
+    <Compile Include="View\Aula17GridPage1.xaml.cs">
+      <DependentUpon>Aula17GridPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Aula18GridPage1.xaml.cs">
+      <DependentUpon>Aula18GridPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Aula19Ex1GridPage1.xaml.cs">
+      <DependentUpon>Aula19Ex1GridPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Aula19Ex2GridPage1.xaml.cs">
+      <DependentUpon>Aula19Ex2GridPage1.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -191,7 +200,25 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\Aula17Page1.xaml">
+    <EmbeddedResource Include="View\Aula17GridPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula18GridPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula19Ex1GridPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula19Ex2GridPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

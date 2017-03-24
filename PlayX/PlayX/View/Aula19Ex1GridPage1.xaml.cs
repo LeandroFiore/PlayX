@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace PlayX.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Aula17Page1 : ContentPage
+    public partial class Aula19Ex1GridPage1 : ContentPage
     {
-        public Aula17Page1()
+        public Aula19Ex1GridPage1()
         {
             InitializeComponent();
         }
