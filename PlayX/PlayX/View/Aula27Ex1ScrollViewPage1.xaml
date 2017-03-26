@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula27Ex1ScrollViewPage1">
+
+    <!--<ScrollView>
+    <StackLayout Spacing="20">
+        <Button Text="Button 1" BackgroundColor="Yellow"/>
+        <Button Text="Button 2" BackgroundColor="Yellow"/>
+        <Button Text="Button 3" BackgroundColor="Yellow"/>
+        <Button Text="Button 4" BackgroundColor="Yellow"/>
+        <Button Text="Button 5" BackgroundColor="Yellow"/>
+        <Button Text="Button 6" BackgroundColor="Yellow"/>
+        <Button Text="Button 7" BackgroundColor="Yellow"/>
+        <Button Text="Button 8" BackgroundColor="Yellow"/>
+        <Button Text="Button 9" BackgroundColor="Yellow"/>
+        <Button Text="Button 10" BackgroundColor="Yellow"/>
+        <Button Text="Button 11" BackgroundColor="Yellow"/>
+        <Button Text="Button 12" BackgroundColor="Yellow"/>
+        <Button Text="Button 13" BackgroundColor="Yellow"/>
+        <Button Text="Button 14" BackgroundColor="Yellow"/>
+        <Button Text="Button 15" BackgroundColor="Yellow"/>
+        <Button Text="Button 16" BackgroundColor="Yellow"/>
+        <Button Text="Button 17" BackgroundColor="Yellow"/>
+        <Button Text="Button 18" BackgroundColor="Yellow"/>
+        <Button Text="Button 19" BackgroundColor="Yellow"/>
+        <Button Text="Button 20" BackgroundColor="Yellow"/>
+        <Button Text="Button 21" BackgroundColor="Yellow"/>
+        <Button Text="Button 22" BackgroundColor="Yellow"/>
+        <Button Text="Button 23" BackgroundColor="Yellow"/>
+        <Button Text="Button 24" BackgroundColor="Yellow"/>
+        <Button Text="Button 25" BackgroundColor="Yellow"/>
+    </StackLayout>
+    </ScrollView>-->
+    
+    
+</ContentPage>

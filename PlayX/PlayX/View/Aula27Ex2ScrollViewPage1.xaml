@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula27Ex2ScrollViewPage1">
+
+    <!--<ScrollView>
+        <StackLayout>
+            <Image Aspect="AspectFill" WidthRequest="300" HeightRequest="300" Source="http://www.macoratti.net/imagens/cidades/cidade1.jpg"/>
+            <Image Aspect="AspectFill" WidthRequest="300" HeightRequest="300" Source="http://www.macoratti.net/imagens/cidades/cidade2.jpg"/>
+            <Image Aspect="AspectFill" WidthRequest="300" HeightRequest="300" Source="http://www.macoratti.net/imagens/cidades/cidade3.jpg"/>
+            <Image Aspect="AspectFill" WidthRequest="300" HeightRequest="300" Source="http://www.macoratti.net/imagens/cidades/cidade4.jpg"/>
+            <Image Aspect="AspectFill" WidthRequest="300" HeightRequest="300" Source="http://www.macoratti.net/imagens/cidades/paisagem1.jpg"/>
+            <Image Aspect="AspectFill" WidthRequest="300" HeightRequest="300" Source="http://www.macoratti.net/imagens/cidades/paisagem2.jpg"/>
+            <Image Aspect="AspectFill" WidthRequest="300" HeightRequest="300" Source="http://www.macoratti.net/imagens/cidades/paisagem3.jpg"/>
+        </StackLayout>
+    </ScrollView>-->
+
+
+    <!--<ScrollView>
+    <StackLayout>
+        <Image Source="http://www.macoratti.net/Imagens/cidades/cidade1.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+        <Image Source="http://www.macoratti.net/Imagens/cidades/cidade2.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+        <Image Source="http://www.macoratti.net/Imagens/cidades/cidade3.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+        <Image Source="http://www.macoratti.net/Imagens/cidades/cidade4.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+        <Image Source="http://www.macoratti.net/Imagens/cidades/paisagem1.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+        <Image Source="http://www.macoratti.net/Imagens/cidades/paisagem2.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+        <Image Source="http://www.macoratti.net/Imagens/cidades/paisagem3.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+        <Image Source="http://www.macoratti.net/Imagens/cidades/vale1.jpg" WidthRequest="250" HeightRequest="250" Aspect="AspectFill" />
+      </StackLayout>
+    </ScrollView>-->
+</ContentPage>

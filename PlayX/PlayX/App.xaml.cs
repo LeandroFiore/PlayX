@@ -15,7 +15,11 @@ namespace PlayX
 
             //MainPage = new PlayX.MainPage();
 
-            MainPage = new PlayX.View.Aula25Ex3RelativePage1();
+            MainPage = new PlayX.View.Aula27Ex2ScrollViewPage1();
+            //MainPage = new PlayX.View.Aula27Ex1ScrollViewPage1();
+            //MainPage = new PlayX.View.Aula26ScrollViewPage2();
+            //MainPage = new PlayX.View.Aula26ScrollViewPage1();
+            //MainPage = new PlayX.View.Aula25Ex3RelativePage1();
             //MainPage = new PlayX.View.Aula25Ex2RelativePage1();
             //MainPage = new PlayX.View.Aula25Ex1RelativePage1();
             //MainPage = new PlayX.View.Aula24RelativePage1();
