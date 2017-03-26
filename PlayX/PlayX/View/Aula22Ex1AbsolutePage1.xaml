@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula22Ex1AbsolutePage1"
+             >
+
+    <AbsoluteLayout>
+        <BoxView Color="Aqua" AbsoluteLayout.LayoutBounds="0,0,1,0.3"  AbsoluteLayout.LayoutFlags="All"/>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="R$ 22,50" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button Text="Encerrar" BackgroundColor="#cd772a" HeightRequest="50" TextColor="White" FontSize="18" FontAttributes="Bold" BorderRadius="15"/>
+        </StackLayout>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0.5,1,0.3" AbsoluteLayout.LayoutFlags="All" Spacing="20" Padding="40,0">
+            <Label HorizontalTextAlignment="Center" FontSize="17" FontAttributes="Bold" Text="Deseja finalizar Compras?"/>
+            <Label HorizontalTextAlignment="Center" FontSize="15" Text="Você pode finalizar agora suas compras ou pode continuar aproveitando as nossas facilidades de pagamento" />
+        </StackLayout>
+
+    </AbsoluteLayout>
+
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula22Ex3AbsolutePage1">
+
+    <AbsoluteLayout>
+        <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Source="http://www.macoratti.net/imagens/natureza/natureza1.jpg" Aspect="AspectFill" />
+        <Label AbsoluteLayout.LayoutBounds="0,20,1,.1" AbsoluteLayout.LayoutFlags="XProportional, SizeProportional" Text="Paisagem" TextColor="White" FontSize="30" HorizontalOptions="Center"/>
+
+        <BoxView AbsoluteLayout.LayoutBounds="0,1,1,100" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" BackgroundColor="Navy" Opacity=".5" />
+        <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,100" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Padding="30,30" Orientation="Horizontal">
+            <Label Text="Compartilhe" FontSize="15" FontAttributes="Bold" TextColor="White"/>
+            <Label Text="Natureza" FontSize="15" FontAttributes="Bold" TextColor="White" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Temas" FontSize="15" FontAttributes="Bold" TextColor="White"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

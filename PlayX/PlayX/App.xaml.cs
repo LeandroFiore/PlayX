@@ -15,7 +15,12 @@ namespace PlayX
 
             //MainPage = new PlayX.MainPage();
 
-            MainPage = new PlayX.View.Aula19Ex2GridPage1();
+            MainPage = new PlayX.View.Aula22Ex3AbsolutePage1();
+            //MainPage = new PlayX.View.Aula22Ex2AbsolutePage1();
+            //MainPage = new PlayX.View.Aula22Ex1AbsolutePage1();
+            //MainPage = new PlayX.View.Aula21AbsolutePage1();
+            //MainPage = new PlayX.View.Aula20AbsolutePage1();
+            //MainPage = new PlayX.View.Aula19Ex2GridPage1();
             //MainPage = new PlayX.View.Aula19Ex1GridPage1();
             //MainPage = new PlayX.View.Aula18GridPage1();
             //MainPage = new PlayX.View.Aula17GridPage1();

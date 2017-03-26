@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula20AbsolutePage1">
+
+    <AbsoluteLayout>
+        <!--Todos valores absolutos-->
+        <!--<BoxView Color="Purple" AbsoluteLayout.LayoutBounds="0,0,200,200"/>-->
+        
+        <!--Todos valores proporcionais-->
+        <BoxView Color="Purple" 
+                 AbsoluteLayout.LayoutBounds="0,0,1,1" 
+                 AbsoluteLayout.LayoutFlags="All"/>
+
+        <!--X e Y proporcional e os demais absolutos-->
+        <BoxView Color="Yellow" 
+                 AbsoluteLayout.LayoutBounds="0.5,0.1,100,100" 
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <!--X , Y e Width proporcional Height absoluto-->
+        <Button Text="Macoratti.net" BackgroundColor="Lime" TextColor="Black"
+                AbsoluteLayout.LayoutBounds="0,1,1,40"
+                AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+                />
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula22Ex2AbsolutePage1"
+             >
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="0,20,0,0"
+                    Android="0,0,0,0"
+                    WinPhone="0,0,0,0">
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <AbsoluteLayout>
+        <BoxView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"  BackgroundColor="Yellow"/>
+
+        <BoxView AbsoluteLayout.LayoutBounds="0,0,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"  BackgroundColor="Silver"/>
+        <BoxView AbsoluteLayout.LayoutBounds="0,1,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"  BackgroundColor="Blue"/>
+
+        <BoxView AbsoluteLayout.LayoutBounds="1,0,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"  BackgroundColor="White"/>
+        <BoxView AbsoluteLayout.LayoutBounds="1,1,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"  BackgroundColor="Green"/>
+
+        <BoxView AbsoluteLayout.LayoutBounds=".5,.5,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"  BackgroundColor="Purple"/>
+        <BoxView AbsoluteLayout.LayoutBounds=".45,.45,100,100" AbsoluteLayout.LayoutFlags="PositionProportional"  BackgroundColor="Teal" Opacity=".5"/>
+    </AbsoluteLayout>
+    
+    
+</ContentPage>
