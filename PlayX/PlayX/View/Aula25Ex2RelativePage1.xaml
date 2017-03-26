@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula25Ex2RelativePage1">
+
+    <!--<RelativeLayout>
+        <Image x:Name="nat1" Aspect="Fill"  Source="http://www.macoratti.net/imagens/natureza/natureza1.jpg"              
+               />
+
+        <Image Aspect="AspectFit"  HeightRequest="150" WidthRequest="150" Source="http://www.macoratti.net/imagens/animais/pato.jpg"
+
+            RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=0.2
+            }"              
+               
+            RelativeLayout.YConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=0.5
+            }"             
+               />
+    </RelativeLayout>-->
+
+    <RelativeLayout>
+
+        <Image Source="http://www.macoratti.net/Imagens/natureza/natureza1.jpg" Aspect="Fill" x:Name="nat1" />
+
+
+        <Image Source="http://www.macoratti.net/Imagens/animais/pato.jpg" Aspect="AspectFit" HeightRequest="150" WidthRequest="150"
+             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, 
+                                        Property=Width,
+                                        Factor=0.2,
+                                        Constant=0}"
+
+             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, 
+                                        Property=Height,
+                                        Factor=0.5,
+                                        Constant=0}" />
+    </RelativeLayout>
+</ContentPage>

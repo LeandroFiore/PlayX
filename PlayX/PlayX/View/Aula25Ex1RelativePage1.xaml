@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula25Ex1RelativePage1">
+
+    <RelativeLayout BackgroundColor="Aqua">
+        <!--
+        Label.Width = 90% da largura do pai
+        Label.X = a 20 unidades do pai
+        Label.Y = a 20 unidades do pai
+        -->        
+        <Label BackgroundColor="Lime" FontSize="24" Text="RelativeLayout" x:Name="MainLabel" 
+            RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=.90
+            }"
+
+            RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=X,
+            Constant=20
+            }"              
+               
+            RelativeLayout.YConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Y,
+            Constant=20
+            }"
+               />
+
+        <!--
+        Button.X = mesma posição do Label
+        Button.Y= Altura da Label + 40 unidades
+        -->
+        <Button BackgroundColor="Red" WidthRequest="100" HeightRequest="100" FontSize="Medium" Text="Salvar" TextColor="White"
+            RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToView, ElementName=MainLabel,
+            Property=X
+            }"         
+                
+                 RelativeLayout.YConstraint="{ConstraintExpression
+            Type=RelativeToView, ElementName=MainLabel,
+            Property=Y,
+            Constant=40
+            }"
+                
+                />
+    </RelativeLayout>
+</ContentPage>

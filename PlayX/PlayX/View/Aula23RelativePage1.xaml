@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula23RelativePage1">
+
+    <RelativeLayout>
+        <!--
+        box1.Width= mesma Largura do pai
+        box1.Height= 1/4 da Altura do pai
+        -->
+        <BoxView Color="Lime" x:Name="box1"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=1
+            }"
+                 RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=0.25
+            }"
+                 />
+
+        <!--box2.Y= Altura da box1 + 50 unidades-->
+        <BoxView Color="Purple" x:Name="box2" WidthRequest="100" HeightRequest="100"
+                 RelativeLayout.YConstraint="{ConstraintExpression
+            Type=RelativeToView, ElementName=box1,
+            Property=Height,
+            Factor=1,
+            Constant=50
+            }"
+                 />
+
+        <!--box3.X= Largura da box2 + 100 unidades-->
+        <!--box3.Y= Altura da box1 + 50 unidades-->
+        <BoxView Color="Green" x:Name="box3" WidthRequest="100" HeightRequest="100"
+                 RelativeLayout.XConstraint="{ConstraintExpression
+            Type=RelativeToView, ElementName=box2,
+            Property=Width,
+            Factor=1,
+            Constant=100
+            }"
+                 RelativeLayout.YConstraint="{ConstraintExpression
+            Type=RelativeToView, ElementName=box1,
+            Property=Height,
+            Factor=1,
+            Constant=50
+            }"
+                 />
+
+    </RelativeLayout>
+</ContentPage>
