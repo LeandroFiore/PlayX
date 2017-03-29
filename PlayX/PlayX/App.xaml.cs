@@ -15,7 +15,9 @@ namespace PlayX
 
             //MainPage = new PlayX.MainPage();
 
-            MainPage = new PlayX.View.Aula28ImagePage1();
+            MainPage = new PlayX.View.Aula30EmbeddedImagesPage1();
+            //MainPage = new PlayX.View.Aula29ActivityIndicatorPage1();
+            //MainPage = new PlayX.View.Aula28ImagePage1();
             //MainPage = new NavigationPage(new PlayX.View.Aula27ContentViewPage2());
             //MainPage = new PlayX.View.Aula27ContentViewPage1();
             //MainPage = new PlayX.View.Aula27Ex2ScrollViewPage1();
