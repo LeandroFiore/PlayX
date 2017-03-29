@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula27ContentViewPage3"
+             Title="Pagina 3">
+
+    <StackLayout VerticalOptions="FillAndExpand">
+        <!--HasShadow e OutlineColor visivel apenas no iOS-->
+        <Frame Padding="50" HasShadow="True" OutlineColor="Blue">
+            <Image Source="http://www.macoratti.net/maco1b.jpg"/>
+        </Frame>
+        <Label Text="Usuário" HorizontalOptions="Start"/>
+        <Entry Text="" Placeholder="Nome do usuário" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Senha" HorizontalOptions="Start"/>
+        <Entry Text="" Placeholder="Senha" HorizontalOptions="FillAndExpand"/>
+        <Button Text="Log In" HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+    
+</ContentPage>

@@ -129,11 +129,26 @@
     <Compile Include="View\Aula26ScrollViewPage2.xaml.cs">
       <DependentUpon>Aula26ScrollViewPage2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Aula27ContentView1.xaml.cs">
+      <DependentUpon>Aula27ContentView1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Aula27ContentViewPage1.xaml.cs">
+      <DependentUpon>Aula27ContentViewPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Aula27ContentViewPage2.xaml.cs">
+      <DependentUpon>Aula27ContentViewPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Aula27ContentViewPage3.xaml.cs">
+      <DependentUpon>Aula27ContentViewPage3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Aula27Ex1ScrollViewPage1.xaml.cs">
       <DependentUpon>Aula27Ex1ScrollViewPage1.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Aula27Ex2ScrollViewPage1.xaml.cs">
       <DependentUpon>Aula27Ex2ScrollViewPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Aula28ImagePage1.xaml.cs">
+      <DependentUpon>Aula28ImagePage1.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -345,6 +360,36 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\Aula27Ex2ScrollViewPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula27ContentViewPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula27ContentView1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula27ContentViewPage2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula27ContentViewPage3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\Aula28ImagePage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

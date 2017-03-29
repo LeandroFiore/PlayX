@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlayX.View.Aula28ImagePage1">
+
+    <!--
+    Aspect
+    AspectFit: padrão, encaixa na área de exibição, adicionando espaços na parte superior/inferior ou lados
+    Fill: Preenche completamente a área de exibição, podendo resultar na distorção da imagem
+    AspectFill: encaixa na área de exibição, preservando o aspecto (sem distorção)
+    -->
+    
+    <Image Aspect="AspectFill"  Source="http://www.macoratti.net/imagens/animais/cao1.jpg"/>
+</ContentPage>
